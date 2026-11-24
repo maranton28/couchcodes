@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "dataRevision": 5,
+  "publishedAt": "2026-11-23T21:30:00Z",
+  "gameTitle": "GTA VI",
+  "activationInstructions": {
+    "ps5": "Press D-Pad Up to open phone, hold L1 + press R1, then enter D-pad sequence.",
+    "xbox": "Press D-Pad Up to open phone, hold LB + press RB, then enter D-pad sequence."
+  },
+  "totalExpectedCheats": 61,
+  "cheats": [
+    {
+      "id": "gta6_money_250k",
+      "title": "$250,000 Cash",
+      "description": "Instantly gives you $250,000. The only money cheat in GTA VI (disables saving).",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["UP", "RIGHT", "DOWN", "LEFT", "UP", "LEFT", "DOWN", "RIGHT"],
+      "unlockRequirement": {
+        "type": "STORY_COMPLETE",
+        "summary": "Finish the main story campaign",
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_unlimited_focus",
+      "title": "Unlimited Focus",
+      "description": "Your special Focus meter never runs out.",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "UP", "DOWN", "UP", "DOWN", "UP", "DOWN", "UP", "RIGHT"],
+      "unlockRequirement": {
+        "type": "STORY_COMPLETE",
+        "summary": "Finish the main story campaign",
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_body_armor",
+      "title": "Body Armor",
+      "description": "Adds full body armor to your loadout.",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "LEFT", "UP", "UP", "UP", "UP", "UP", "DOWN", "DOWN"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 100 workouts",
+        "targetCount": 100,
+        "menuLocation": "Progress > Fitness"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_raise_heat_level",
+      "title": "Raise Heat Level",
+      "description": "Raises your heat level across the map.",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["LEFT", "DOWN", "RIGHT", "DOWN", "UP", "DOWN", "UP"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Lose a 3-star Wanted level 25 times",
+        "targetCount": 25,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_raise_wanted_level",
+      "title": "Raise Wanted Level",
+      "description": "Raises your active Wanted level across the map.",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["LEFT", "DOWN", "RIGHT", "DOWN", "UP", "RIGHT", "UP"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Lose a 3-star Wanted level 50 times",
+        "targetCount": 50,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_drunk_mode",
+      "title": "Drunk Mode",
+      "description": "Instantly makes both you and your partner drunk.",
+      "category": "PLAYER",
+      "status": "VERIFIED",
+      "sequence": ["UP", "LEFT", "RIGHT", "UP", "UP", "LEFT", "RIGHT", "UP", "LEFT", "RIGHT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Spend $2,500 on alcohol",
+        "targetCount": 2500,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_no_fall_damage",
+      "title": "No Fall Damage",
+      "description": "Makes your character completely immune to fall damage.",
+      "category": "PLAYER",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Survive twenty 40-foot freefalls",
+        "targetCount": 20,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_parachute",
+      "title": "Give Parachute",
+      "description": "Adds a parachute directly to your loadout.",
+      "category": "PLAYER",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 50 skydives or BASE jumps from 300ft or higher",
+        "targetCount": 50,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_repair_vehicle",
+      "title": "Repair Vehicle",
+      "description": "Fully repairs your current vehicle.",
+      "category": "PLAYER",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Finish 1st in 10 races at Gellhorn Raceway, Thrillbilly Mud Club, and Boone Speedway",
+        "targetCount": 10,
+        "menuLocation": "Progress > Races"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_unlimited_nitrous",
+      "title": "Unlimited Nitrous",
+      "description": "Vehicle nitrous and fuel never run out.",
+      "category": "PLAYER",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 50 stunt jumps",
+        "targetCount": 50,
+        "menuLocation": "Progress > Stunt Jumps"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_cycle_weather",
+      "title": "Cycle Weather",
+      "description": "Switches through all active weather conditions.",
+      "category": "ENVIRONMENT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "RIGHT", "UP", "DOWN", "RIGHT", "UP", "RIGHT"],
+      "unlockRequirement": {
+        "type": "STORY_COMPLETE",
+        "summary": "Finish the main story campaign",
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_move_time_forward",
+      "title": "Move Time Forward",
+      "description": "Advances the in-game clock forward.",
+      "category": "ENVIRONMENT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Find 10 collectible watches",
+        "targetCount": 10,
+        "menuLocation": "Progress > Collectibles"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_pause_time",
+      "title": "Pause Time of Day",
+      "description": "Freezes the current time of day.",
+      "category": "ENVIRONMENT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Find 20 collectible watches",
+        "targetCount": 20,
+        "menuLocation": "Progress > Collectibles"
+      },
+      "isFreeTier": true,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_attack_force",
+      "title": "Attack Force",
+      "description": "Bullets and melee attacks launch targets backward on impact.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "LEFT", "LEFT", "RIGHT", "DOWN", "DOWN", "UP", "DOWN"],
+      "unlockRequirement": {
+        "type": "STORY_COMPLETE",
+        "summary": "Finish the main story campaign",
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_max_ammo",
+      "title": "Max Ammo",
+      "description": "Fills all weapon ammunition to maximum capacity.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "RIGHT", "DOWN", "LEFT", "LEFT", "UP", "UP", "DOWN", "LEFT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Win 25 bronze medals or higher at shooting ranges",
+        "targetCount": 25,
+        "menuLocation": "Progress > Shooting Range"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_infinite_ammo",
+      "title": "Infinite Ammo",
+      "description": "Ammunition never runs out.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "RIGHT", "DOWN", "LEFT", "LEFT", "UP", "DOWN", "DOWN", "DOWN"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Win 25 silver medals or higher at shooting ranges",
+        "targetCount": 25,
+        "menuLocation": "Progress > Shooting Range"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_no_reload",
+      "title": "No Reload",
+      "description": "Ammo never runs out and weapons never need to reload.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "RIGHT", "DOWN", "LEFT", "LEFT", "UP", "DOWN", "DOWN", "UP"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Win 25 gold medals at shooting ranges",
+        "targetCount": 25,
+        "menuLocation": "Progress > Shooting Range"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_exploding_balls",
+      "title": "Exploding Balls",
+      "description": "Sports balls explode violently on impact.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "LEFT", "LEFT", "RIGHT", "DOWN", "DOWN", "UP", "RIGHT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Hit 20 enemies with explosive damage",
+        "targetCount": 20,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_vehicle_force",
+      "title": "Vehicle Force",
+      "description": "Vehicle collisions launch targets into the air.",
+      "category": "COMBAT",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "UP", "LEFT", "LEFT", "RIGHT", "DOWN", "LEFT", "UP", "DOWN"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Kill 25 enemies with a vehicle",
+        "targetCount": 25,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_incendiary_ammo",
+      "title": "Incendiary Ammo",
+      "description": "Bullets ignite enemies on impact.",
+      "category": "COMBAT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Burn 100 enemies with fire damage",
+        "targetCount": 100,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_explosive_shotgun",
+      "title": "Explosive Shotgun",
+      "description": "Shotgun blasts fire explosive shells.",
+      "category": "COMBAT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Hit 100 enemies with explosive damage",
+        "targetCount": 100,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_all_explosive_weapons",
+      "title": "All Explosive Weapons",
+      "description": "Equips all explosive weapons with maximum ammunition.",
+      "category": "COMBAT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Throw 100 grenades",
+        "targetCount": 100,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_hauners_hat",
+      "title": "Hauners H-AT Launcher",
+      "description": "Adds a Hauners H-AT launcher to your loadout.",
+      "category": "COMBAT",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Destroy 100 vehicles",
+        "targetCount": 100,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_mtl_pumper",
+      "title": "Spawn MTL Pumper",
+      "description": "Spawns an MTL Pumper fire truck at your current location.",
+      "category": "VEHICLES",
+      "status": "VERIFIED",
+      "sequence": ["LEFT", "UP", "RIGHT", "DOWN", "LEFT", "RIGHT", "RIGHT", "UP"],
+      "unlockRequirement": {
+        "type": "DISCOVER_ITEM",
+        "summary": "Discover the MTL Pumper in the Progress menu",
+        "menuLocation": "Progress > Vehicles"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_hvy_bulldozer",
+      "title": "Spawn HVY Bulldozer",
+      "description": "Spawns an HVY Bulldozer at your current location.",
+      "category": "VEHICLES",
+      "status": "VERIFIED",
+      "sequence": ["LEFT", "UP", "RIGHT", "DOWN", "LEFT", "RIGHT", "RIGHT", "DOWN"],
+      "unlockRequirement": {
+        "type": "DISCOVER_ITEM",
+        "summary": "Discover the HVY Bulldozer in the Progress menu",
+        "menuLocation": "Progress > Vehicles"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_maibatsu_boomazoom",
+      "title": "Spawn Maibatsu Boomazoom",
+      "description": "Spawns a Maibatsu Boomazoom at your current location.",
+      "category": "VEHICLES",
+      "status": "VERIFIED",
+      "sequence": ["LEFT", "UP", "RIGHT", "DOWN", "LEFT", "LEFT", "UP", "LEFT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 5 shopping challenges",
+        "targetCount": 5,
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_lapwing_mallard",
+      "title": "Spawn Lapwing Mallard",
+      "description": "Spawns a Lapwing Mallard stunt plane.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 5 vehicle challenges",
+        "targetCount": 5,
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_vapid_taxi",
+      "title": "Spawn Vapid Stanier G2 Taxi",
+      "description": "Spawns a Vapid Stanier G2 Taxi.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 5 sports challenges",
+        "targetCount": 5,
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_brimstone_golfer",
+      "title": "Spawn Brimstone Golfer",
+      "description": "Spawns a Brimstone Golfer cart.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "ALL_CHALLENGES",
+        "summary": "Complete all sports challenges",
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_rhino_tank",
+      "title": "Spawn Hauners Rhino Tank",
+      "description": "Spawns a heavily armored Hauners Rhino Tank.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "ALL_CHALLENGES",
+        "summary": "Complete all survival challenges",
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_truffade_thrax",
+      "title": "Spawn Truffade Thrax",
+      "description": "Spawns a Truffade Thrax hypercar.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "ALL_CHALLENGES",
+        "summary": "Complete all shopping challenges",
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_spawn_p996_lazer",
+      "title": "Spawn Hauners P-996 Lazer",
+      "description": "Spawns a Hauners P-996 Lazer fighter jet.",
+      "category": "VEHICLES",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "ALL_CHALLENGES",
+        "summary": "Complete all in-game challenges",
+        "menuLocation": "Progress > Challenges"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_cataclysm",
+      "title": "Cataclysm Screen Filter",
+      "description": "Fills the world with murky, smoky atmosphere.",
+      "category": "FILTERS",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "DOWN", "UP", "RIGHT", "RIGHT", "UP", "LEFT", "LEFT", "RIGHT", "RIGHT"],
+      "unlockRequirement": {
+        "type": "DISCOVER_ITEM",
+        "summary": "Discover Martha's Vamos in the Progress menu",
+        "menuLocation": "Progress > Vehicles"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_dollhouse",
+      "title": "Dollhouse Screen Filter",
+      "description": "Applies a vivid color palette with a narrow aspect ratio.",
+      "category": "FILTERS",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "DOWN", "UP", "RIGHT", "RIGHT", "UP", "LEFT", "LEFT", "DOWN", "RIGHT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Spend 8 hours with your partner",
+        "targetCount": 8,
+        "menuLocation": "Progress > Relationship"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_faded_glory",
+      "title": "Faded Glory Screen Filter",
+      "description": "Applies a vintage color CRT TV screen filter.",
+      "category": "FILTERS",
+      "status": "VERIFIED",
+      "sequence": ["DOWN", "DOWN", "UP", "RIGHT", "RIGHT", "UP", "LEFT", "LEFT", "LEFT", "RIGHT"],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Rob 50 stores with your partner",
+        "targetCount": 50,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_bubblegum",
+      "title": "Bubblegum Screen Filter",
+      "description": "Applies a pastel bubblegum color filter.",
+      "category": "FILTERS",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Find all 24 Vice City Flamingos cards",
+        "targetCount": 24,
+        "menuLocation": "Progress > Collectibles"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_fast_forward",
+      "title": "Fast Forward Screen Filter",
+      "description": "Applies motion blur and accelerates cloud movement.",
+      "category": "FILTERS",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Complete 50 meditations",
+        "targetCount": 50,
+        "menuLocation": "Progress > Cheats"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_fisheye",
+      "title": "Fisheye Screen Filter",
+      "description": "Applies a wide-angle fisheye lens distortion.",
+      "category": "FILTERS",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "CHALLENGE_COUNT",
+        "summary": "Catch 100 fish",
+        "targetCount": 100,
+        "menuLocation": "Progress > Fishing"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    },
+    {
+      "id": "gta6_filter_powdered_sugar",
+      "title": "Powdered Sugar Screen Filter",
+      "description": "Applies a high-contrast bleached visual filter.",
+      "category": "FILTERS",
+      "status": "UNCONFIRMED",
+      "sequence": [],
+      "unlockRequirement": {
+        "type": "ALL_CHALLENGES",
+        "summary": "Scan all space debris with WAiNK",
+        "menuLocation": "Progress > Collectibles"
+      },
+      "isFreeTier": false,
+      "updatedAt": "2026-11-18"
+    }
+  ]
+}
